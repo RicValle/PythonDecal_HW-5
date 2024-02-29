@@ -7,6 +7,6 @@ myarr = np.array(['python', 'is', 'cool'])
 
 def Spacebtw(myarr):
 
-    for word in myarr:
+    return [' '.join(words) for words in myarr]
 
-        
+print(Spacebtw(myarr))
